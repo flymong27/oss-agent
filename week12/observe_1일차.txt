@@ -1,13 +1,13 @@
 12주차 1일차 실습  (11월 17일)
-이름:
-학번:
+이름: 정준영
+학번: 20231347
 
 번호 뒤에 한두 줄로 적는다. (화면에 나온 것 복사 붙여넣기 가능)
 
 1. claude --version 결과: 2.1.318 (Claude Code)
 
 2. 스킬 없이 물었을 때 (6단계)
-   2-1. 읽은 파일: .tools.py
+   2-1. 읽은 파일: tools.py
    2-2. 권한 요청 횟수:1
    2-3. 실행한 명령:  PowerShell($env:PYTHONDONTWRITEBYTECODE='1'; & .\.venv\Scripts\python.exe -c "import tools; print(tools.get_boxoffice_rank_1('20261114'))")
    2-4. 최종 답: 2026년 11월 14일 박스오피스 1위: 극장판 치이카와: 인어 섬의 비밀

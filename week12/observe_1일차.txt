@@ -24,16 +24,16 @@
    5-2. audience 결과: 57,190명
 
 6. 스킬 목록에 boxoffice 와 내가 쓴 설명이 나왔나 (12단계):
-
+   - boxoffice: 영화진흥위원회(KOBIS) 일별 박스오피스 조회
+  - 사용 시점: 특정 날짜의 박스오피스 일위 영화나 그 영화의 관객 수를 물을 때
 7. 스킬을 설치한 뒤 같은 질문 (13단계)
-   7-1. 스킬이 쓰였나:
-   7-2. 읽은 파일:
-   7-3. 권한 요청 횟수:
-   7-4. 실행한 명령:
+   7-1. 스킬이 쓰였나: 네
+   7-2. 읽은 파일:.claude/skills/boxoffice/scripts/boxoffice.py
+   7-3. 권한 요청 횟수:1
+   7-4. 실행한 명령: Bash(python3 .claude/skills/boxoffice/scripts/boxoffice.py rank 20261114 || python .claude/skills/boxoffice/scripts/boxoffice.py rank 20261114)
 
 8. /boxoffice 로 물었을 때 스크립트가 몇 번, 어떤 순서로 실행됐나 (14단계):
-
-.venv
-observe_1일차.txt
-requirements.txt
- secret.py tools.py
+ 2번 실행함
+ 1. boxoffice.py rank 20261114 : 극장판 치이카와: 인어 섬의 비밀
+ 2. boxoffice.py audience 20261114 "극장판 치이카와: 인어 섬의 비밀" : 57,190명
+ 
